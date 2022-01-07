@@ -1,0 +1,30 @@
+step:1 creating maven project
+
+mvn -B archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
+
+step 2: open the project using anyIDE (we used eclipse)
+
+
+step 3: compile ==> mvn compile
+
+step 4: Test ==> mvn test
+
+step 5 :test and compile (both)mvn test-compile
+
+step 6:mvn package (create jar file)
+
+step 7: mvn install (installing into the Local repository)
+
+step 8:  mvn site (Generate the Report)
+
+step 9: mvn clean (clean unnecessary resources)
+
+step 10 : to run the Maven Project ==>java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+Error: Could not find or load main class com.mycompany.app.App
+
+
+3 Lifecycle:
+===========
+1.Default ==> different pahses, validate,
+2.clean
+3.site
